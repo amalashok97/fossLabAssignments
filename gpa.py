@@ -69,14 +69,6 @@ entrySub8.grid(row=8,column =2)
 labelResult= tk.Label(root)
 labelResult.grid(row =10,column =2)
 
-O=10.0
-Ap = 9
-A =8.5
-Bp = 8
-B=7.5
-C=7
-D= 6.5
-F=P=0
 
 resultCalc = partial (resultCalc,labelResult,number1,number2,number3,number4,number5,number6,number7,number8)
 calcButton =tk.Button(root,text='Calculate SGPA',command = resultCalc)
